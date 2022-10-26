@@ -1,0 +1,119 @@
+*{
+    margin:auto;
+    padding: 0;
+    font-family: sans-serif;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    background-image: url(pokeball-background.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
+
+.form_box{
+     width: 350px;
+     height: 450px;
+     position: relative;
+     margin: 7% auto;
+     background:white;
+     padding: 8px;
+     overflow: hidden;
+}
+
+.butoon_box{
+    width:195px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 10px 2px rgb(255, 39, 39);
+    border-radius: 30px;
+}
+
+.des-button{
+    padding: 10px 25px;
+    cursor:pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+
+#butn{
+    position: absolute;
+    width: 100px;
+    height: 100%;
+    background: linear-gradient( to right,rgb(255, 0, 0),rgb(255, 0, 0));
+    border-radius: 50px;
+    transition: .5s;
+     
+}
+
+
+
+.social_icons{
+    margin: 20px auto;
+    text-align: center;
+}
+
+.social_icons img{
+    width: 30px;
+    margin: 0 10px;
+    box-shadow: 0 0 5px 0 red;
+    cursor: pointer;
+    border-radius: 100%;
+}
+
+.form-des{
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}
+
+.input_field{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0px;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+
+.submit-butn{
+    width: 75%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient( to right,rgb(255, 0, 0),rgb(255, 0, 0));
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+
+
+.show-password{
+	margin: 20px 8px 30px 0;
+}
+
+
+span{
+    color: #777;
+    font-size: 15px;
+    bottom: 63px;
+    position: absolute;
+}
+
+#login{
+    left:50px    
+}
+
+#register{
+    left:400px    
+}
+
