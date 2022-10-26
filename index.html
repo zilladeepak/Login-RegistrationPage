@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pokemon Account login</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" href="pokemon.png">
+    </head>
+    <body>
+        <div class="main">
+            <div class="form_box">
+                <div class="butoon_box">
+                    <div id="butn"></div>
+                    <button type="button" class="des-button" onclick="login()">Log In</button>
+                    <button type="button" class="des-button" onclick="register()">Register</button>
+
+                </div>
+                <div class="social_icons">
+                    <img src="facebook-icon.png">
+                    <img src="google-icon.png">
+                    <img src="t.png " >
+                </div>
+                <form id="login" class="form-des">
+                    <input type="text" class="input_field" placeholder="User Id" required>
+                    <input type="password" class="input_field" value="" id="showpassword" placeholder="Enter Password" required>
+                    <br>
+					<input type="checkbox" class="show-password" onclick="myFunction()"><span>Show Password</span>
+                    <!--input type="checkbox" class="check-box"><span>Remember Password</span-->
+                    <button type="submit" class="submit-butn">Log in</button> 
+                </form> 
+                <form id="register" class="form-des">
+                    <input type="text" class="input_field" placeholder="User Id" required>
+                    <input type="email" class="input_field" placeholder="Email Id" required>
+                    <input type="text" class="input_field" value="" id="showpassword2" placeholder="Enter Password" required>
+                    <br>
+					<input type="checkbox" class="show-password" onclick="myFunction2()"><span>Hide Password</span>
+                    <!--input type="checkbox" class="check-box"><span>I agree to the terms & conditions</span-->
+                    <button type="submit" class="submit-butn">Register</button>
+                </form>
+            </div>
+        </div>
+      
+
+<script>
+var x= document.getElementById("login");
+var y=document.getElementById("register");
+var z=document.getElementById("butn");
+
+function register(){
+    x.style.left ="-400px";
+    y.style.left ="50px";
+    z.style.left="95px";
+}
+function login(){
+    x.style.left="50px";
+    y.style.left="450px";
+    z.style.left="0";
+}
+function myFunction() {
+  var w = document.getElementById("showpassword");
+  if (w.type === "password") {
+    w.type = "text";
+  } else {
+    w.type = "password";
+  }
+}
+function myFunction2(){
+var v = document.getElementById("showpassword2");
+if (v.type == "text"){
+	v.type="password";
+	} else{
+	v.type="text";
+	}
+	}
+
+</script>
+
+    </body>
+</html>
