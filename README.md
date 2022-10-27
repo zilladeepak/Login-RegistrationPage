@@ -3,5 +3,5 @@
 2. Used some javascript code to switch between forms.
 
 # Result page instructions
-1. After downloading the project files keep the images and icons in the same folder as of index and styles files as the html was written as of that.
+1. After downloading the project files keep the images and icons in the same folder as of index and styles files as the html was<br> written as of that.
 2. Or Change the html code as per image files located at.
