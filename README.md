@@ -1,5 +1,5 @@
 # Login-Registration-Form
-1. This a beautiful login cum registration page built with using HTML and CSS.
+1. This a beautiful login and registration page built with using HTML and CSS.
 2. Live link <a href="https://zilladeepak.github.io/Login-RegistrationPage/" target="_blank">Here</a>
 3. Used some javascript code to switch between forms.
 
